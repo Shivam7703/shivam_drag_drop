@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background: linear-gradient( 134deg, rgb(246, 100, 100), rgb(247, 228, 247));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* container section */
+.boxes {
+  box-shadow: 4px 5px 33px 16px;
+    text-align: center;
+    margin: 80px;
+    width: 350px;
+    border-radius: 40px;
+    height: 500px;
+    padding: 35px;
+    border: 1px solid #aaaaaa;
+  }
+
+  /* image in elements */
+  #dag{
+     margin:10px 24px 0px;
+    width: 300px;
+    height: 180px;
+    border: 2px solid white;
+  }
+
+  /* all other elements */
+  p{
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid black;
+font-size: 25px;
+font-weight: bolder;
+text-shadow: 2px 1px white;
+background-color: red;
+  }
+
+  
+  /* notification */
+  h1{
+    text-shadow: 2px 2px yellow;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin:200px 0 ;
+    font-size: 40px;
+    width: 200px;
+    font-weight: bolder;
+    word-break: normal;
+    color: black;
+  }
