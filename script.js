@@ -1,7 +1,7 @@
 var ele = document.getElementsByClassName('drag');
 var box = document.getElementsByClassName('boxes');
 var not = document.getElementById('h');
-var dragItem = null;
+var dragItem ;
 
 // for selecting each elements to drag
 for(var i of ele){
@@ -22,7 +22,7 @@ function End(){
   // fun for notification
   notification();
   setTimeout(()=>this.style.display = "block" ,0);
-  dragItem = null;
+  dragItem = "";
 
   }
 
